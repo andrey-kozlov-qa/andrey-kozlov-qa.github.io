@@ -1,0 +1,127 @@
+body {
+  font-family: "Fjalla One";
+  background-color: #f5f5f5;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('background.jpg'); /* Указываем путь к изображению */
+  background-repeat: no-repeat; /* Опция для предотвращения повтора изображения */
+  background-size: cover; /* Масштабируем изображение по размеру экрана */
+  background-position: center; /* Центрируем изображение */
+}
+
+* {
+   box-sizing: border-box;
+  }
+        
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 10px;
+  }
+        
+.about-me {
+   width: 40%;
+   padding: 20px;
+   border-radius: 5px;
+   }
+        
+.contacts-table {
+    width: 50%;
+    padding: 60px;
+    border-radius: 5px;
+    }
+        
+  h2 {
+      margin-top: 0;
+    }
+        
+  ul {
+      list-style-type: none;
+      padding-left: 0;
+     }
+        
+  li {
+       margin-bottom: 10px;
+      }
+        
+   a {
+        text-decoration: none;
+        color: blue;
+      }
+
+
+.header__avatar {
+  border-radius: 100%;
+}
+
+.header__title {
+  margin: 30px 0 10px 0;
+  font-size: 80px;
+  line-height: 1.2;
+  font-family: "Fjalla One";
+}
+
+.header {
+  margin: 40px 0;
+}
+
+.header__subtitle {
+  color: #ed6f2d;
+  font-size: 230px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+
+
+.main-container {
+    max-width: 3000px; / Ограничиваем максимальную ширину контейнера /
+    margin: 0 auto; / Центрируем контейнер по горизонтали /
+    padding: 100px; / Небольшие отступы внутри контейнера /
+}
+
+.about-me {
+    text-align: center; / Выравниваем содержимое по центру /
+}
+
+.about-me h2 {
+    font-size: 90px; / Размер шрифта заголовка /
+    margin-bottom: 40px; / Отступ после заголовка /
+}
+
+.about-me p {
+    font-size: 50px; / Размер шрифта параграфа /
+    line-height: 10.5; / Межстрочный интервал для удобства чтения /
+    margin-bottom: 70px; / Отступ перед изображением /
+}
+
+.about-me img {
+    display: block; / Убираем возможный лишний отступ снизу у изображения /
+    margin: 0 auto; / Центрируем изображение /
+}
+
+ 
+/* Кнопка */
+.button-link {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 30px;
+  padding: 20px;
+  width: 400px;
+  background: #ed6f2d;
+  border-radius: 20px;
+
+  font-size: 30px;
+  line-height: 1.4;
+
+  color: #ffffff;
+  text-decoration: none;
+}
